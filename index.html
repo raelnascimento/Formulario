@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" size="5" maxlength="35" required>
+        <br>
+
+        <label for="numero"><strong>Numero</strong></label>
+        <input type="number" name="numero">
+        <br>
+
+        <br>
+        <label for="senha"><strong>Senha</strong></label>
+        <input type="password" name="senha" maxlength="8">
+        <br>
+
+        <label for="texto"><strong>Texto:</strong></label>
+        <br>
+        <textarea name="texto" rows="10" cols="50" maxlength="10"></textarea>
+        <br>
+        
+        <label for="data"><strong>Data</strong></label>
+        <input type="date" name="data">
+        <br>
+
+        <label for="semana"><strong>Semana</strong></label>
+        <input type="week" name="semana">
+        <br>
+
+        <label for="hora"><strong>Hora</strong></label>
+        <input type="time" name="hora">
+        <br>
+
+        <label for="datahora"><strong>Data Hora</strong></label>
+        <input type="datetime-local" name="datahora">
+        <br>
+
+        <label for="check"><strong>Escolha de Opções</strong></label>
+        <br>
+        <input name="esporte" value="futebol" type="checkbox">
+        <label for="futebol"><strong>Futebol</strong></label>
+        <br>
+        <input name="esporte" value="volei" type="checkbox">
+        <label for="volei"><strong>Volei</strong></label>
+        <br>
+        <input name="esporte" value="natacao" type="checkbox">
+        <label for="natacao"><strong>Natação</strong></label>
+        <br>
+
+        <label for="item"><strong>Item:</strong></label>
+        <input type="radio" name="item" value="Sim">
+        <label for="opSim"><strong>Sim</strong></label>
+        <input type="radio" name="item" value="Nao">
+        <label for="opNao"><strong>Não</strong></label>
+        <br>
+
+        <label for="lista"><strong>Lista</strong></label>
+        <select name="Lista">
+            <option>Opção 1</option>
+            <option>Opção 2</option>
+            <option>Opção 3</option>
+            <option>Opção 4</option>
+        </select>
+        <br>
+
+        <label for="cor"><strong>Cor</strong></label>
+        <input type="color" name="cor">
+        <br>
+
+        <label for="arquivo"><strong>arquivo</strong></label>
+        <input type="file" name="arquivo">
+        <br>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+        <input type="button" value="JavaScript">
+    </form>
+</body>
+</html>
